@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo-container {
+    img {
+      transform: scale(0.8);
+    }
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+    }
+
+    a {
+      transition: all 300ms ease-in-out;
+    }
+
+    li:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    a:hover {
+      color: $cyan;
+    }
+  }
+}
