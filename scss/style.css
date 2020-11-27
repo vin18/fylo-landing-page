@@ -115,7 +115,7 @@ ul {
 
 .header__cta {
   display: inline-block;
-  background-color: #65e2d9;
+  background-color: #339ecc;
   padding: 1.2rem 6rem;
   border-radius: 5rem;
   font-weight: bold;
@@ -124,12 +124,7 @@ ul {
 }
 
 .header__cta:hover {
-  opacity: 0.8;
-}
-
-.header__cta:active {
-  -webkit-box-shadow: 1px 2px 4px 0 rgba(255, 255, 255, 0.1);
-          box-shadow: 1px 2px 4px 0 rgba(255, 255, 255, 0.1);
+  background-color: #65e2d9;
 }
 
 .features {
@@ -210,6 +205,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  padding-bottom: 40rem;
 }
 
 .testimonial__quotes {
@@ -250,5 +246,52 @@ ul {
       -ms-grid-row-align: center;
       align-self: center;
   margin-right: 1.25rem;
+}
+
+.newsletter__container {
+  background: #202a3c;
+  width: 60%;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  border-radius: 0.5rem;
+  -webkit-transform: translateY(-20rem);
+          transform: translateY(-20rem);
+  -webkit-box-shadow: 1px 1rem 1.5rem rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1rem 1.5rem rgba(0, 0, 0, 0.3);
+}
+
+.newsletter h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.newsletter p {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.newsletter input {
+  padding: 1.5rem 16rem;
+  border-radius: 10rem;
+  outline: 0;
+  margin-right: 4rem;
+  margin-left: 2rem;
+}
+
+.newsletter__cta {
+  display: inline-block;
+  background-color: #339ecc;
+  padding: 1.2rem 4rem;
+  border-radius: 5rem;
+  font-weight: bold;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.newsletter__cta:hover {
+  background-color: #65e2d9;
 }
 /*# sourceMappingURL=style.css.map */
