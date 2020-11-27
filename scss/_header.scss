@@ -1,4 +1,6 @@
 .header {
+  margin-bottom: 15rem;
+
   &__nav {
     display: flex;
     align-items: center;
@@ -69,13 +71,11 @@
     transition: all 400ms;
 
     &:hover {
-      box-shadow: 1px 4px 8px 0 rgba(255, 255, 255, 0.1);
-      transform: translateY(-3px);
+      opacity: 0.8;
     }
 
     &:active {
       box-shadow: 1px 2px 4px 0 rgba(255, 255, 255, 0.1);
-      transform: translateY(-1px);
     }
   }
 }
