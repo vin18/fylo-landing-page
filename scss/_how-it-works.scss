@@ -1,9 +1,32 @@
-// .how-it-works {
-//   display: flex;
+.how-it-works {
+  display: flex;
 
-//   &__info {
-//     h2 {
-//       font-size: 3rem;
-//     }
-//   }
-// }
+  &__imgContainer {
+    flex: 1;
+    margin-left: 5rem;
+  }
+
+  &__info {
+    flex: 1;
+    margin: 10rem 0;
+
+    h2 {
+      font-size: 3.5rem;
+      line-height: 1.3;
+      width: 50%;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      width: 80%;
+    }
+
+    a {
+      color: $cyan;
+      border-bottom: 1px solid $cyan;
+      transition: all 300ms;
+      margin-right: 2rem;
+    }
+  }
+}
