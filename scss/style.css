@@ -26,9 +26,9 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
-  padding: 3rem;
   background-color: #181f2a;
   color: white;
+  height: 100vh;
 }
 
 a {
@@ -42,6 +42,7 @@ ul {
 
 .header {
   margin-bottom: 15rem;
+  padding-top: 2rem;
 }
 
 .header__nav {
@@ -205,7 +206,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  padding-bottom: 40rem;
+  padding-bottom: 10rem;
 }
 
 .testimonial__quotes {
@@ -248,11 +249,18 @@ ul {
   margin-right: 1.25rem;
 }
 
+.newsletter {
+  -webkit-transform: translateY(25rem);
+          transform: translateY(25rem);
+  position: relative;
+  z-index: 1;
+}
+
 .newsletter__container {
   background: #202a3c;
   width: 60%;
   margin: 0 auto;
-  padding: 3rem 5rem;
+  padding: 5rem 5rem;
   border-radius: 0.5rem;
   -webkit-transform: translateY(-20rem);
           transform: translateY(-20rem);
@@ -262,7 +270,7 @@ ul {
 
 .newsletter h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 2rem;
 }
 
@@ -274,7 +282,8 @@ ul {
 }
 
 .newsletter input {
-  padding: 1.5rem 16rem;
+  padding: 1.5rem 2rem;
+  width: 60%;
   border-radius: 10rem;
   outline: 0;
   margin-right: 4rem;
@@ -293,5 +302,79 @@ ul {
 
 .newsletter__cta:hover {
   background-color: #65e2d9;
+}
+
+.footer {
+  -webkit-transform: translateY(-5rem);
+          transform: translateY(-5rem);
+  background-color: #0b1523;
+  padding: 20rem 10rem 10rem 10rem;
+}
+
+.footer__logo {
+  margin-bottom: 3rem;
+}
+
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__location {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+.footer__address {
+  width: 25%;
+  margin-right: 10rem;
+}
+
+.footer__contact {
+  margin-right: 10rem;
+}
+
+.footer__contact-phone {
+  margin-bottom: 2rem;
+}
+
+.footer__contact-phone img {
+  margin-right: 1rem;
+}
+
+.footer__contact-email img {
+  margin-right: 1rem;
+}
+
+.footer__nav {
+  margin-right: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__nav a {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  margin-bottom: 0.7rem;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.footer__nav a:hover {
+  color: #65e2d9;
+}
+
+.footer__social-media i {
+  border: 1px solid #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */

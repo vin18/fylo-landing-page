@@ -1,0 +1,67 @@
+.footer {
+  transform: translateY(-5rem);
+  background-color: $darkBlueFooter;
+  padding: 20rem 10rem 10rem 10rem;
+
+  &__logo {
+    margin-bottom: 3rem;
+  }
+
+  &__info {
+    display: flex;
+  }
+
+  &__location {
+    align-self: flex-start;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+
+  &__address {
+    width: 25%;
+    margin-right: 10rem;
+  }
+
+  &__contact {
+    margin-right: 10rem;
+
+    &-phone {
+      margin-bottom: 2rem;
+
+      img {
+        margin-right: 1rem;
+      }
+    }
+
+    &-email {
+      img {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__nav {
+    margin-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      flex: 0 0 50%;
+      margin-bottom: 0.7rem;
+      transition: all 200ms;
+
+      &:hover {
+        color: $cyan;
+      }
+    }
+  }
+
+  &__social-media {
+    i {
+      border: 1px solid #fff;
+      padding: 1rem;
+      border-radius: 50%;
+      margin: 0.5rem;
+    }
+  }
+}
